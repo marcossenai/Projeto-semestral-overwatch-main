@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.elemento {
+    width: 100vw;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+}
+
+background {
+    background-color: lightblue;
+}
+
+.back {
+    width: 100vw;
+    height: 765px;
+
+}
+
+.logo {
+    position: absolute;
+    width: 66.58px;
+    height: 66.58px;
+    left: 45px;
+    top: 19px;
+
+}
+
+.nome {
+    position: absolute;
+    width: 310.52px;
+    height: 48.69px;
+    left: 131.48px;
+    top: 27.24px;
+}
+
+.botão1 {
+    background-image: url(imagens/historia\ jogo.png);
+    background-size: 204px 29px;
+    position: absolute;
+    width: 204px;
+    height: 29px;
+    left: 500px;
+    top: 37px;
+
+}
+
+.botão1:hover {
+    background-image: url(imagens/imagem\ efeito.png);
+    background-size: 204px 48px;
+    position: absolute;
+    width: 204px;
+    height: 29px;
+    left: 500px;
+    top: 37px;
+}
+
+.botão2 {
+    background-image: url(imagens/herois.png);
+    background-size: 164px 29px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 770px;
+    top: 37px;
+
+}
+
+.botão2:hover {
+    background-image: url(imagens/herois\ laranja.png);
+    background-size: 171px 49px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 770px;
+    top: 37px;
+}
+
+.botão3 {
+    background-image: url(imagens/mapas.png);
+    background-size: 164px 29px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 990px;
+    top: 37px;
+}
+
+.botão3:hover {
+    background-image: url(imagens/conheça\ os\ mapas\ laranja.png);
+    background-size: 164px 49px
+}
+
+.botão4 {
+    background-image: url(imagens/adquira\ o\ jogo.png);
+    background-size: 164px 29px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 1200px;
+    top: 37px;
+}
+
+.videogames {
+    position: absolute;
+    width: 100vw;
+    height: 89px;
+    left: 0px;
+    top: 781px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(217, 217, 217, 0.75);
+}
+
+.tela {
+    width: 100vw;
+    height: 430px;
+    display: flex;
+
+}
+
+.tela1 {
+    position: absolute;
+    width: 100vw;
+    height: 431px;
+    top: 870px;
+}
+
+.window {
+    position: absolute;
+    width: 311px;
+    height: 380px;
+    left: 980px;
+    top: 919px;
+
+}
+
+.jogo {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    left: 210px;
+    top: 950px;
+}
+
+#slider {
+    width: 80%;
+    max-width: 500px;
+    height: 25vw;
+    max-height: 150px;
+
+    position: relative;
+}
+
+#slider img {
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100vw;
+    height: 681px;
+    top: -5px;
+
+    object-fit: cover;
+
+    transition: 700ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+.blizardpreto {
+    background-image: url(imagens/blizard.png);
+    background-size: 86px 72px;
+    position: absolute;
+    width: 86px;
+    height: 72px;
+    top: 10px;
+    left: 319px;
+}
+
+.blizardpreto:hover {
+    background-image: url(imagens/blizardpreto.png);
+    background-size: 86px 78px;
+    position: absolute;
+    top: 7px;
+    left: 319px;
+}
+
+.xboxpreto {
+    background-size: 200px 100px;
+    background-image: url(imagens/xbox.png);
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: -5px;
+    left: 466px;
+}
+
+.xboxpreto:hover {
+    background-image: url(imagens/xboxpreto.png);
+    background-size: 200px 100px;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -6px;
+    left: 466px;
+}
+
+.playstationpreto {
+    background-image: url(imagens/playstation.png);
+    background-size: 278px 61px;
+    width: 278px;
+    height: 61px;
+    position: absolute;
+    top: 17px;
+    left: 685px;
+}
+
+.playstationpreto:hover {
+    background-image: url(imagens/playstationpreto.png);
+    background-size: 278px 107px;
+    width: 278px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    left: 685px;
+}
+
+.switchpreto {
+    background-image: url(imagens/switch.png);
+    background-size: 86px 77px;
+    position: absolute;
+    width: 86px;
+    height: 77px;
+    top: 8px;
+    left: 1024px;
+}
+
+.switchpreto:hover {
+    background-image: url(imagens/switchpreto.png);
+    background-size: 86px 86px;
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    top: 4px;
+    left: 1024px;
+}
+
+.telita {
+    width: 100vw;
+    height: 540px;
+    position: absolute;
+    top: 1972px;
+}
+
+.textohistoria {
+    width: 701px;
+    height: 230px;
+    position: absolute;
+    top: 2080px;
+    left: 130px;
+}
+
+.tracerperfil {
+    position: absolute;
+    width: 523px;
+    height: 540px;
+    left: 1012px;
+    top: 1972px;
+}
+
+.histblack {
+    width: 190px;
+    height: 25px;
+}
+
+.conheçahistoria {
+    background-image: url(histblack.png);
+    background-color: white;
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    width: 262px;
+    height: 65px;
+    left: 306px;
+    top: 2346px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    transition: background-color 1s ease;
+
+}
+
+.conheçahistoria:hover {
+    background-color: rgb(255, 136, 0);
+    background-image: url(histwhite.png);
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    width: 262px;
+    height: 65px;
+    left: 306px;
+    top: 2346px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tela2 {
+    position: absolute;
+    width: 100vw;
+    height: 450px;
+    top: 2512px;
+}
+
+.moira {
+    position: absolute;
+    width: 581.94px;
+    height: 402px;
+    left: 35px;
+    top: 2560px;
+
+}
+
+.barralaranja {
+    position: absolute;
+    width: 530.69px;
+    height: 15px;
+    left: 0px;
+    top: 2948px;
+}
+
+.persons {
+    position: absolute;
+    width: 649px;
+    height: 210px;
+    left: 730px;
+    top: 2575px;
+}
+
+.herois {
+    background-image: url(heroisblack.png);
+    background-color: white;
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    width: 262px;
+    height: 65px;
+    left: 875px;
+    top: 2816px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    transition: background-color 1s ease;
+
+}
+
+.herois:hover {
+    background-color: rgb(255, 136, 0);
+    background-image: url(heroiswhite.png);
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    width: 262px;
+    height: 65px;
+    left: 875px;
+    top: 2816px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tela3 {
+    width: 100vw;
+    height: 494px;
+    top: 2961px;
+    position: absolute;
+}
+
+.mapas {
+    width: 837px;
+    height: 494px;
+    left: 699px;
+    top: 2961px;
+    position: absolute;
+}
+
+.tri {
+    width: 100px;
+    height: 493px;
+    ;
+    top: 2961px;
+    position: absolute;
+    left: 534px;
+}
+
+.conhecaMapas {
+    width: 606px;
+    height: 167px;
+    position: absolute;
+    top: 3090px;
+    left: 73px;
+}
+
+.botaoMapas {
+    background-image: url(mapablack.png);
+    background-color: white;
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    width: 267px;
+    height: 65px;
+    left: 219px;
+    top: 3300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    transition: background-color 1s ease;
+}
+
+.botaoMapas:hover {
+    background-color: rgb(255, 136, 0);
+    background-image: url(mapawhite.png);
+    background-position: center;
+    background-size: 190px 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    width: 267px;
+    height: 65px;
+    left: 219px;
+    top: 3300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sigma {
+    width: 100vw;
+    height: 780;
+    position: absolute;
+    top: 3455px;
+}
+
+.tela5 {
+    background-color: #C8D6EB;
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    top: 4120px;
+}
+
+.cima {
+    position: absolute;
+    top: 4120px;
+    width: 530px;
+    height: 14px;
+    z-index: 1;
+}
+
+.baixo {
+    position: absolute;
+    top: 4606px;
+    width: 530px;
+    height: 14px;
+    z-index: 1;
+    left: 1005px;
+}
+
+.cubana {
+    position: absolute;
+    width: 427px;
+    height: 375px;
+    top: 4245px;
+    left: 28px;
+}
+
+.att {
+    position: absolute;
+    width: 695px;
+    height: 255px;
+    left: 690px;
+    top: 4240px;
+}
+
+.novidades {
+    background-color: #171A2C;
+    height: 137px;
+    width: 100vw;
+    position: absolute;
+    top: 4620px;
+    display: flex;
+    align-items: center;
+
+}
+
+@font-face {
+    font-family: 'fonti';
+    src: url(font/big_noodle_titling.ttf);
+}
+
+.ligado {
+    font: 200 64px 'fonti', sans-serif;
+    color: #B5C1CD;
+    margin-left: 106px;
+
+}
+
+.iconeyt {
+    width: 54px;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconeyt:hover {
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: scale(1.1);
+
+}
+
+.iconeins {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconeins:hover {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transform: scale(1.1);
+}
+
+.iconeface {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+.iconeface:hover{
+    transform: scale(1.1);
+}
+
+
+.iconett {
+    width: 42px;
+    height: 41px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconett:hover{
+    transform: scale(1.1);
+}
